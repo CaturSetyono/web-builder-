@@ -28,7 +28,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="min-h-screen bg-background text-foreground flex flex-col">
-            {hasNavigation && <Navbar navigation={config.navigation} />}
+            {hasNavigation && <Navbar navigation={config.navigation || []} />}
             <main
               className={`flex-1 container mx-auto px-4 ${
                 hasNavigation ? "py-8" : "py-0"
@@ -39,7 +39,7 @@ export default async function RootLayout({
             <Footer
               siteName={config.site.title}
               description={config.site.description}
-              navigation={config.navigation}
+              navigation={config.navigation || []}
             />
           </div>
         </ThemeProvider>
