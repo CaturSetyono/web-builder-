@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Engineering Hub",
+    "description": "Your AI-powered developer portal"
+  },
+  "theme": {
+    "primary": "#6366f1",
+    "secondary": "#8b5cf6",
+    "mode": "light"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "#services"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "type": "hero",
+      "content": {
+        "title": "Welcome to Engineering Hub",
+        "subtitle": "AI-powered developer experience",
+        "cta": {
+          "text": "Get Started",
+          "href": "#services"
+        }
+      }
+    }
+  ]
+}

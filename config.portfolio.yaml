@@ -1,0 +1,187 @@
+# Creative Portfolio - Showcase Your Work
+# Perfect for designers, developers, and creatives
+
+site:
+  title: "Alex Rivera - Creative Developer"
+  description: "Full-stack developer and UI/UX designer crafting digital experiences"
+  favicon: "/favicon.ico"
+
+theme:
+  primary: "#0ea5e9"
+  secondary: "#06b6d4"
+  background: "#0f172a"
+  text: "#f1f5f9"
+  mode: "dark"
+
+navigation:
+  - label: "Home"
+    path: "/"
+  - label: "Work"
+    path: "#work"
+  - label: "Skills"
+    path: "#skills"
+  - label: "Journey"
+    path: "#journey"
+  - label: "Contact"
+    path: "#contact"
+
+pages:
+  - path: "/"
+    type: "hero"
+    content:
+      title: "Alex Rivera"
+      subtitle: "Creative Developer & Digital Designer"
+      description: "I craft beautiful digital experiences that blend form and function. Specializing in modern web applications, interactive design, and scalable systems."
+      backgroundImage: "https://images.unsplash.com/photo-1618004912476-29818d81ae2e?ixlib=rb-4.0.3"
+      cta:
+        text: "View My Work"
+        href: "#work"
+        variant: "primary"
+
+  - path: "/work"
+    type: "cards"
+    content:
+      title: "Featured Projects"
+      subtitle: "Selected work from 2023-2024"
+      layout: "grid"
+      cards:
+        - title: "E-Commerce Platform Redesign"
+          description: "Complete UX overhaul for a major retail brand, resulting in 45% increase in conversions and 60% faster checkout flow"
+          image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&w=800"
+          tags: ["React", "Next.js", "Tailwind", "Stripe"]
+          metadata:
+            - label: "Client"
+              value: "RetailCo"
+            - label: "Year"
+              value: "2024"
+            - label: "Role"
+              value: "Lead Developer"
+          link: "/projects/ecommerce"
+
+        - title: "AI Design Assistant SaaS"
+          description: "Built a complete SaaS platform that helps designers generate color palettes and layouts using AI"
+          image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&w=800"
+          tags: ["TypeScript", "OpenAI", "PostgreSQL", "Vercel"]
+          metadata:
+            - label: "Type"
+              value: "Personal Project"
+            - label: "Year"
+              value: "2024"
+            - label: "Status"
+              value: "Live"
+          link: "/projects/ai-design"
+
+        - title: "Healthcare Dashboard"
+          description: "Real-time patient monitoring dashboard for hospitals with complex data visualization and alerting system"
+          image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&w=800"
+          tags: ["Vue.js", "D3.js", "Node.js", "HIPAA"]
+          metadata:
+            - label: "Client"
+              value: "MedTech Solutions"
+            - label: "Year"
+              value: "2023"
+            - label: "Role"
+              value: "Frontend Architect"
+          link: "/projects/healthcare"
+
+        - title: "Mobile Banking App"
+          description: "Award-winning mobile banking experience with biometric authentication and real-time transaction tracking"
+          image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&w=800"
+          tags: ["React Native", "Firebase", "Plaid API"]
+          metadata:
+            - label: "Client"
+              value: "FinanceApp Inc"
+            - label: "Year"
+              value: "2023"
+            - label: "Award"
+              value: "Best UX 2023"
+          link: "/projects/banking"
+
+  - path: "/skills"
+    type: "features"
+    content:
+      title: "What I Bring to the Table"
+      subtitle: "Skills & expertise developed over 8+ years"
+      features:
+        - title: "Frontend Development"
+          description: "Expert in React, Next.js, Vue, and modern JavaScript. Building fast, accessible, and beautiful user interfaces."
+          icon: "code"
+          image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&w=800"
+
+        - title: "UI/UX Design"
+          description: "Creating intuitive user experiences with Figma, Adobe XD. From wireframes to high-fidelity prototypes."
+          icon: "palette"
+          image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&w=800"
+
+        - title: "Backend & APIs"
+          description: "Building scalable backend systems with Node.js, Python, and PostgreSQL. RESTful and GraphQL APIs."
+          icon: "database"
+          image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&w=800"
+
+        - title: "DevOps & Cloud"
+          description: "Deploying and maintaining applications on AWS, Vercel, and Docker. CI/CD pipelines and infrastructure as code."
+          icon: "cloud"
+          image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?ixlib=rb-4.0.3&w=800"
+
+  - path: "/journey"
+    type: "timeline"
+    content:
+      title: "My Professional Journey"
+      subtitle: "Career milestones and achievements"
+      items:
+        - date: "2024"
+          title: "Senior Full Stack Developer"
+          description: "Leading development of enterprise applications at TechCorp. Managing a team of 5 developers and architecting cloud-native solutions."
+          image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&w=400"
+
+        - date: "2022"
+          title: "Freelance Developer & Designer"
+          description: "Launched my freelance career, working with startups and established companies on web and mobile projects. Built 20+ successful projects."
+          image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&w=400"
+
+        - date: "2020"
+          title: "Frontend Developer at StartupXYZ"
+          description: "Rebuilt the entire frontend architecture from jQuery to React. Improved performance by 70% and reduced bundle size by 50%."
+          image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&w=400"
+
+        - date: "2017"
+          title: "Junior Developer at Agency Co"
+          description: "Started my professional journey building websites and learning modern web development practices. First exposure to React and agile methodologies."
+          image: "https://images.unsplash.com/photo-1497032205916-ac775f0649ae?ixlib=rb-4.0.3&w=400"
+
+  - path: "/stats"
+    type: "stats"
+    content:
+      title: "Impact by Numbers"
+      layout: "inline"
+      background: "dark"
+      stats:
+        - label: "Years Experience"
+          value: "8+"
+          icon: "calendar"
+
+        - label: "Projects Completed"
+          value: "50+"
+          icon: "check-circle"
+
+        - label: "Happy Clients"
+          value: "30+"
+          icon: "smile"
+
+        - label: "Code Commits"
+          value: "10K+"
+          icon: "git-commit"
+
+  - path: "/contact"
+    type: "cta"
+    content:
+      title: "Let's Build Something Amazing"
+      subtitle: "Available for freelance projects and full-time opportunities"
+      backgroundType: "gradient"
+      ctas:
+        - text: "Email Me"
+          href: "mailto:alex@rivera.dev"
+          variant: "primary"
+        - text: "Download Resume"
+          href: "/resume.pdf"
+          variant: "secondary"

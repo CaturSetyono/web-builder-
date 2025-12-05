@@ -1,0 +1,186 @@
+# SaaS Landing Page - Modern & Conversion-Focused
+# Perfect for software products and startups
+
+site:
+  title: "CloudFlow AI"
+  description: "AI-powered workflow automation for modern teams"
+  favicon: "/favicon.ico"
+
+theme:
+  primary: "#8b5cf6"
+  secondary: "#ec4899"
+  background: "#ffffff"
+  text: "#1e293b"
+  mode: "light"
+
+navigation:
+  - label: "Home"
+    path: "/"
+  - label: "Features"
+    path: "#features"
+  - label: "Pricing"
+    path: "#pricing"
+  - label: "Testimonials"
+    path: "#testimonials"
+
+pages:
+  - path: "/"
+    type: "hero"
+    content:
+      title: "Automate Your Workflow with AI"
+      subtitle: "10x productivity with intelligent automation"
+      description: "CloudFlow AI helps teams automate repetitive tasks, streamline processes, and focus on what matters."
+      backgroundImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3"
+      cta:
+        text: "Start Free Trial"
+        href: "#pricing"
+        variant: "primary"
+
+  - path: "/features"
+    type: "features"
+    content:
+      title: "Everything You Need to Succeed"
+      subtitle: "Powerful features for modern teams"
+      features:
+        - title: "AI-Powered Automation"
+          description: "Smart workflows that learn from your patterns and optimize automatically"
+          icon: "sparkles"
+          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&w=800"
+          badge: "AI"
+
+        - title: "Real-Time Collaboration"
+          description: "Work together seamlessly with your team from anywhere in the world"
+          icon: "users"
+          image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&w=800"
+
+        - title: "Enterprise Security"
+          description: "Bank-level encryption and compliance with SOC2, GDPR, and HIPAA"
+          icon: "shield-check"
+          image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&w=800"
+          badge: "Secure"
+
+        - title: "Advanced Analytics"
+          description: "Deep insights into your workflows with customizable dashboards and reports"
+          icon: "trending-up"
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&w=800"
+
+  - path: "/stats"
+    type: "stats"
+    content:
+      title: "Trusted by Teams Worldwide"
+      layout: "grid"
+      background: "gradient"
+      stats:
+        - label: "Active Users"
+          value: "100K+"
+          icon: "users"
+
+        - label: "Automations Run"
+          value: "5M+"
+          icon: "zap"
+
+        - label: "Time Saved"
+          value: "2M hrs"
+          icon: "clock"
+
+        - label: "Countries"
+          value: "150+"
+          icon: "globe"
+
+  - path: "/pricing"
+    type: "pricing"
+    content:
+      title: "Simple, Transparent Pricing"
+      subtitle: "Start free, scale as you grow"
+      plans:
+        - name: "Starter"
+          price: "$0"
+          period: "/month"
+          description: "Perfect for individuals and small teams"
+          features:
+            - "Up to 100 automations/month"
+            - "5 team members"
+            - "Basic integrations"
+            - "Email support"
+            - "99.5% uptime SLA"
+          cta:
+            text: "Get Started Free"
+            href: "/signup"
+
+        - name: "Professional"
+          price: "$49"
+          period: "/month"
+          description: "For growing teams and businesses"
+          highlighted: true
+          features:
+            - "Unlimited automations"
+            - "20 team members"
+            - "Advanced integrations"
+            - "Priority support"
+            - "99.9% uptime SLA"
+            - "Advanced analytics"
+            - "Custom workflows"
+          cta:
+            text: "Start 14-Day Trial"
+            href: "/trial"
+
+        - name: "Enterprise"
+          price: "Custom"
+          period: ""
+          description: "For large organizations with custom needs"
+          features:
+            - "Unlimited everything"
+            - "Unlimited team members"
+            - "All integrations + custom"
+            - "24/7 dedicated support"
+            - "99.99% uptime SLA"
+            - "Advanced security & compliance"
+            - "Custom integrations"
+            - "Dedicated account manager"
+          cta:
+            text: "Contact Sales"
+            href: "/contact"
+
+  - path: "/testimonials"
+    type: "testimonials"
+    content:
+      title: "Loved by Thousands of Teams"
+      subtitle: "See what our customers have to say"
+      testimonials:
+        - name: "Jessica Martinez"
+          role: "VP of Operations at TechStart"
+          avatar: "https://i.pravatar.cc/150?img=5"
+          content: "CloudFlow AI has completely transformed how our team works. We've saved over 20 hours per week on repetitive tasks and can now focus on strategic initiatives."
+          rating: 5
+
+        - name: "David Kim"
+          role: "Founder & CEO at GrowthLabs"
+          avatar: "https://i.pravatar.cc/150?img=12"
+          content: "The AI automation is incredibly smart. It learned our workflows in days and now handles everything seamlessly. Best investment we've made this year."
+          rating: 5
+
+        - name: "Amanda Foster"
+          role: "CTO at DataFlow Inc"
+          avatar: "https://i.pravatar.cc/150?img=9"
+          content: "Enterprise-grade security with startup-level ease of use. Finally, a tool that our entire organization can use without extensive training."
+          rating: 5
+
+        - name: "Michael Roberts"
+          role: "Product Manager at Innovate Co"
+          avatar: "https://i.pravatar.cc/150?img=15"
+          content: "We tried 5 different automation tools before CloudFlow. This is the only one that actually delivers on its promises. The ROI has been phenomenal."
+          rating: 5
+
+  - path: "/cta"
+    type: "cta"
+    content:
+      title: "Ready to Transform Your Workflow?"
+      subtitle: "Join 100,000+ teams already automating with CloudFlow AI"
+      backgroundType: "gradient"
+      ctas:
+        - text: "Start Free Trial"
+          href: "/trial"
+          variant: "primary"
+        - text: "Watch Demo"
+          href: "/demo"
+          variant: "secondary"
