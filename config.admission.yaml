@@ -104,7 +104,7 @@ pages:
     content:
       title: "Alur Pendaftaran"
       subtitle: "Ikuti langkah-langkah mudah untuk mendaftar"
-      events:
+      items:
         - date: "Langkah 1"
           title: "Registrasi Online"
           description: "Buat akun dan isi formulir pendaftaran online melalui portal PMB kami"
@@ -271,7 +271,7 @@ pages:
     content:
       title: "Jadwal Penting PMB 2025/2026"
       subtitle: "Catat tanggal-tanggal penting berikut"
-      events:
+      items:
         - date: "1 Januari - 28 Februari 2025"
           title: "Pendaftaran Gelombang 1"
           description: "Periode pendaftaran awal dengan benefit potongan biaya pendaftaran"
