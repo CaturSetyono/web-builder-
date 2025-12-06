@@ -1,186 +1,210 @@
-# SaaS Landing Page - Modern & Conversion-Focused
-# Perfect for software products and startups
+# Digital Agency - Professional & Dynamic
+# Perfect for creative agencies, studios, and consultancies
 
 site:
-  title: "CloudFlow AI"
-  description: "AI-powered workflow automation for modern teams"
+  title: "Pixel Perfect Studio"
+  description: "Award-winning digital agency specializing in branding and web experiences"
   favicon: "/favicon.ico"
 
 theme:
-  primary: "#8b5cf6"
-  secondary: "#ec4899"
-  background: "#ffffff"
-  text: "#1e293b"
+  primary: "#f59e0b"
+  secondary: "#f97316"
+  background: "#fafafa"
+  text: "#0f172a"
   mode: "light"
 
 navigation:
   - label: "Home"
     path: "/"
-  - label: "Features"
-    path: "#features"
-  - label: "Pricing"
-    path: "#pricing"
-  - label: "Testimonials"
-    path: "#testimonials"
+  - label: "Services"
+    path: "#services"
+  - label: "Work"
+    path: "#work"
+  - label: "Team"
+    path: "#team"
+  - label: "Contact"
+    path: "#contact"
 
 pages:
   - path: "/"
     type: "hero"
     content:
-      title: "Automate Your Workflow with AI"
-      subtitle: "10x productivity with intelligent automation"
-      description: "CloudFlow AI helps teams automate repetitive tasks, streamline processes, and focus on what matters."
-      backgroundImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3"
+      title: "We Create Digital Experiences That Matter"
+      subtitle: "Award-winning design & development studio"
+      description: "From strategy to execution, we craft digital products that drive growth and delight users."
+      backgroundImage: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3"
       cta:
-        text: "Start Free Trial"
-        href: "#pricing"
+        text: "Start Your Project"
+        href: "#contact"
         variant: "primary"
 
-  - path: "/features"
+  - path: "/services"
     type: "features"
     content:
-      title: "Everything You Need to Succeed"
-      subtitle: "Powerful features for modern teams"
+      title: "Our Services"
+      subtitle: "End-to-end digital solutions"
       features:
-        - title: "AI-Powered Automation"
-          description: "Smart workflows that learn from your patterns and optimize automatically"
+        - title: "Brand Identity"
+          description: "Complete brand strategy, logo design, and visual identity systems that make your business stand out"
           icon: "sparkles"
-          image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&w=800"
-          badge: "AI"
+          image: "https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&w=800"
 
-        - title: "Real-Time Collaboration"
-          description: "Work together seamlessly with your team from anywhere in the world"
-          icon: "users"
-          image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&w=800"
+        - title: "Web Development"
+          description: "Custom websites and web applications built with cutting-edge technologies for performance and scalability"
+          icon: "globe"
+          image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&w=800"
 
-        - title: "Enterprise Security"
-          description: "Bank-level encryption and compliance with SOC2, GDPR, and HIPAA"
-          icon: "shield-check"
-          image: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&w=800"
-          badge: "Secure"
+        - title: "Mobile Apps"
+          description: "Native and cross-platform mobile applications that deliver seamless experiences on iOS and Android"
+          icon: "smartphone"
+          image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&w=800"
 
-        - title: "Advanced Analytics"
-          description: "Deep insights into your workflows with customizable dashboards and reports"
+        - title: "Digital Marketing"
+          description: "Data-driven marketing strategies, SEO, content creation, and social media management to grow your business"
           icon: "trending-up"
-          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&w=800"
+          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&w=800"
+
+  - path: "/work"
+    type: "grid"
+    content:
+      title: "Featured Work"
+      subtitle: "Projects we're proud of"
+      columns: 3
+      items:
+        - title: "TechVenture Rebranding"
+          description: "Complete brand refresh for a leading tech startup"
+          icon: "award"
+          link: "/case-studies/techventure"
+
+        - title: "E-Commerce Platform"
+          description: "Headless commerce solution for fashion retailer"
+          icon: "shopping-bag"
+          link: "/case-studies/ecommerce"
+
+        - title: "Healthcare App"
+          description: "Telemedicine platform connecting patients and doctors"
+          icon: "heart"
+          link: "/case-studies/healthcare"
+
+        - title: "SaaS Dashboard"
+          description: "Analytics dashboard for B2B software company"
+          icon: "bar-chart-2"
+          link: "/case-studies/saas"
+
+        - title: "Food Delivery App"
+          description: "Mobile ordering app for restaurant chain"
+          icon: "utensils"
+          link: "/case-studies/food-delivery"
+
+        - title: "Real Estate Portal"
+          description: "Property listing platform with virtual tours"
+          icon: "home"
+          link: "/case-studies/real-estate"
 
   - path: "/stats"
     type: "stats"
     content:
-      title: "Trusted by Teams Worldwide"
+      title: "We Deliver Results"
       layout: "grid"
       background: "gradient"
       stats:
-        - label: "Active Users"
-          value: "100K+"
+        - label: "Projects Delivered"
+          value: "200+"
+          icon: "check-circle"
+
+        - label: "Happy Clients"
+          value: "150+"
           icon: "users"
 
-        - label: "Automations Run"
-          value: "5M+"
-          icon: "zap"
+        - label: "Awards Won"
+          value: "25+"
+          icon: "award"
 
-        - label: "Time Saved"
-          value: "2M hrs"
-          icon: "clock"
+        - label: "Team Members"
+          value: "40+"
+          icon: "heart"
 
-        - label: "Countries"
-          value: "150+"
-          icon: "globe"
-
-  - path: "/pricing"
-    type: "pricing"
+  - path: "/team"
+    type: "team"
     content:
-      title: "Simple, Transparent Pricing"
-      subtitle: "Start free, scale as you grow"
-      plans:
-        - name: "Starter"
-          price: "$0"
-          period: "/month"
-          description: "Perfect for individuals and small teams"
-          features:
-            - "Up to 100 automations/month"
-            - "5 team members"
-            - "Basic integrations"
-            - "Email support"
-            - "99.5% uptime SLA"
-          cta:
-            text: "Get Started Free"
-            href: "/signup"
+      title: "Meet Our Team"
+      subtitle: "Talented people behind great work"
+      columns: 4
+      members:
+        - name: "Sarah Thompson"
+          role: "Founder & Creative Director"
+          avatar: "https://i.pravatar.cc/150?img=1"
+          bio: "15+ years leading creative teams at top agencies"
+          social:
+            - platform: "linkedin"
+              url: "https://linkedin.com/in/sarahthompson"
+            - platform: "twitter"
+              url: "https://twitter.com/sarahthompson"
 
-        - name: "Professional"
-          price: "$49"
-          period: "/month"
-          description: "For growing teams and businesses"
-          highlighted: true
-          features:
-            - "Unlimited automations"
-            - "20 team members"
-            - "Advanced integrations"
-            - "Priority support"
-            - "99.9% uptime SLA"
-            - "Advanced analytics"
-            - "Custom workflows"
-          cta:
-            text: "Start 14-Day Trial"
-            href: "/trial"
+        - name: "Marcus Chen"
+          role: "Tech Lead"
+          avatar: "https://i.pravatar.cc/150?img=13"
+          bio: "Full-stack wizard with a passion for clean code"
+          social:
+            - platform: "github"
+              url: "https://github.com/marcuschen"
+            - platform: "linkedin"
+              url: "https://linkedin.com/in/marcuschen"
 
-        - name: "Enterprise"
-          price: "Custom"
-          period: ""
-          description: "For large organizations with custom needs"
-          features:
-            - "Unlimited everything"
-            - "Unlimited team members"
-            - "All integrations + custom"
-            - "24/7 dedicated support"
-            - "99.99% uptime SLA"
-            - "Advanced security & compliance"
-            - "Custom integrations"
-            - "Dedicated account manager"
-          cta:
-            text: "Contact Sales"
-            href: "/contact"
+        - name: "Emily Rodriguez"
+          role: "UX/UI Designer"
+          avatar: "https://i.pravatar.cc/150?img=5"
+          bio: "Creating beautiful and intuitive user experiences"
+          social:
+            - platform: "dribbble"
+              url: "https://dribbble.com/emilyrodriguez"
+            - platform: "linkedin"
+              url: "https://linkedin.com/in/emilyrodriguez"
+
+        - name: "James Wilson"
+          role: "Strategy Director"
+          avatar: "https://i.pravatar.cc/150?img=14"
+          bio: "Helping brands find their voice and grow"
+          social:
+            - platform: "linkedin"
+              url: "https://linkedin.com/in/jameswilson"
+            - platform: "twitter"
+              url: "https://twitter.com/jameswilson"
 
   - path: "/testimonials"
     type: "testimonials"
     content:
-      title: "Loved by Thousands of Teams"
-      subtitle: "See what our customers have to say"
+      title: "Client Success Stories"
+      subtitle: "What our clients say about working with us"
       testimonials:
-        - name: "Jessica Martinez"
-          role: "VP of Operations at TechStart"
-          avatar: "https://i.pravatar.cc/150?img=5"
-          content: "CloudFlow AI has completely transformed how our team works. We've saved over 20 hours per week on repetitive tasks and can now focus on strategic initiatives."
+        - name: "Jennifer Adams"
+          role: "CEO at TechStart Inc"
+          avatar: "https://i.pravatar.cc/150?img=10"
+          content: "Pixel Perfect transformed our brand and online presence. Their team is professional, creative, and truly understands business goals. Highly recommended!"
           rating: 5
 
-        - name: "David Kim"
-          role: "Founder & CEO at GrowthLabs"
+        - name: "Robert Martinez"
+          role: "Marketing Director at RetailCo"
           avatar: "https://i.pravatar.cc/150?img=12"
-          content: "The AI automation is incredibly smart. It learned our workflows in days and now handles everything seamlessly. Best investment we've made this year."
+          content: "The e-commerce platform they built exceeded our expectations. Sales increased by 150% in the first quarter. Outstanding work!"
           rating: 5
 
-        - name: "Amanda Foster"
-          role: "CTO at DataFlow Inc"
+        - name: "Lisa Chang"
+          role: "Founder at HealthTech Solutions"
           avatar: "https://i.pravatar.cc/150?img=9"
-          content: "Enterprise-grade security with startup-level ease of use. Finally, a tool that our entire organization can use without extensive training."
+          content: "From concept to launch, they guided us every step of the way. The app they developed is beautiful, fast, and our users love it."
           rating: 5
 
-        - name: "Michael Roberts"
-          role: "Product Manager at Innovate Co"
-          avatar: "https://i.pravatar.cc/150?img=15"
-          content: "We tried 5 different automation tools before CloudFlow. This is the only one that actually delivers on its promises. The ROI has been phenomenal."
-          rating: 5
-
-  - path: "/cta"
+  - path: "/contact"
     type: "cta"
     content:
-      title: "Ready to Transform Your Workflow?"
-      subtitle: "Join 100,000+ teams already automating with CloudFlow AI"
+      title: "Ready to Start Your Project?"
+      subtitle: "Let's discuss how we can help your business grow"
       backgroundType: "gradient"
       ctas:
-        - text: "Start Free Trial"
-          href: "/trial"
+        - text: "Get in Touch"
+          href: "/contact"
           variant: "primary"
-        - text: "Watch Demo"
-          href: "/demo"
+        - text: "View Our Work"
+          href: "#work"
           variant: "secondary"
