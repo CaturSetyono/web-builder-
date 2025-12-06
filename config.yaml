@@ -1,210 +1,220 @@
-# Digital Agency - Professional & Dynamic
-# Perfect for creative agencies, studios, and consultancies
+# Tech Startup - Bold & Innovation-Focused
+# Perfect for startups, tech companies, and disruptors
 
 site:
-  title: "Pixel Perfect Studio"
-  description: "Award-winning digital agency specializing in branding and web experiences"
+  title: "NexaAI - The Future of Work"
+  description: "Revolutionary AI platform transforming how teams collaborate"
   favicon: "/favicon.ico"
 
 theme:
-  primary: "#f59e0b"
-  secondary: "#f97316"
-  background: "#fafafa"
-  text: "#0f172a"
+  primary: "#10b981"
+  secondary: "#059669"
+  background: "#ffffff"
+  text: "#111827"
   mode: "light"
 
 navigation:
-  - label: "Home"
+  - label: "Product"
     path: "/"
-  - label: "Services"
-    path: "#services"
-  - label: "Work"
-    path: "#work"
-  - label: "Team"
-    path: "#team"
-  - label: "Contact"
-    path: "#contact"
+  - label: "Features"
+    path: "#features"
+  - label: "Pricing"
+    path: "#pricing"
+  - label: "Company"
+    path: "#company"
 
 pages:
   - path: "/"
     type: "hero"
     content:
-      title: "We Create Digital Experiences That Matter"
-      subtitle: "Award-winning design & development studio"
-      description: "From strategy to execution, we craft digital products that drive growth and delight users."
-      backgroundImage: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3"
+      title: "Work Smarter, Not Harder"
+      subtitle: "AI-powered collaboration for modern teams"
+      description: "NexaAI combines artificial intelligence with intuitive design to help your team achieve more, faster."
+      backgroundImage: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3"
       cta:
-        text: "Start Your Project"
-        href: "#contact"
+        text: "Get Early Access"
+        href: "#pricing"
         variant: "primary"
 
-  - path: "/services"
+  - path: "/features"
     type: "features"
     content:
-      title: "Our Services"
-      subtitle: "End-to-end digital solutions"
+      title: "Built for the Future of Work"
+      subtitle: "Features that supercharge productivity"
       features:
-        - title: "Brand Identity"
-          description: "Complete brand strategy, logo design, and visual identity systems that make your business stand out"
-          icon: "sparkles"
-          image: "https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&w=800"
+        - title: "AI Meeting Assistant"
+          description: "Automatic transcription, action items, and summaries for every meeting. Never miss important details again."
+          icon: "mic"
+          image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&w=800"
+          badge: "AI-Powered"
 
-        - title: "Web Development"
-          description: "Custom websites and web applications built with cutting-edge technologies for performance and scalability"
-          icon: "globe"
-          image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&w=800"
+        - title: "Smart Task Management"
+          description: "AI automatically prioritizes your tasks based on deadlines, dependencies, and team capacity."
+          icon: "check-square"
+          image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&w=800"
+          badge: "Intelligent"
 
-        - title: "Mobile Apps"
-          description: "Native and cross-platform mobile applications that deliver seamless experiences on iOS and Android"
-          icon: "smartphone"
-          image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&w=800"
+        - title: "Real-Time Collaboration"
+          description: "Work together in real-time with multiplayer editing, comments, and instant notifications."
+          icon: "users"
+          image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&w=800"
 
-        - title: "Digital Marketing"
-          description: "Data-driven marketing strategies, SEO, content creation, and social media management to grow your business"
-          icon: "trending-up"
-          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&w=800"
-
-  - path: "/work"
-    type: "grid"
-    content:
-      title: "Featured Work"
-      subtitle: "Projects we're proud of"
-      columns: 3
-      items:
-        - title: "TechVenture Rebranding"
-          description: "Complete brand refresh for a leading tech startup"
-          icon: "award"
-          link: "/case-studies/techventure"
-
-        - title: "E-Commerce Platform"
-          description: "Headless commerce solution for fashion retailer"
-          icon: "shopping-bag"
-          link: "/case-studies/ecommerce"
-
-        - title: "Healthcare App"
-          description: "Telemedicine platform connecting patients and doctors"
-          icon: "heart"
-          link: "/case-studies/healthcare"
-
-        - title: "SaaS Dashboard"
-          description: "Analytics dashboard for B2B software company"
-          icon: "bar-chart-2"
-          link: "/case-studies/saas"
-
-        - title: "Food Delivery App"
-          description: "Mobile ordering app for restaurant chain"
-          icon: "utensils"
-          link: "/case-studies/food-delivery"
-
-        - title: "Real Estate Portal"
-          description: "Property listing platform with virtual tours"
-          icon: "home"
-          link: "/case-studies/real-estate"
+        - title: "Intelligent Insights"
+          description: "Data-driven recommendations to optimize workflows, identify bottlenecks, and improve team performance."
+          icon: "bar-chart"
+          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&w=800"
+          badge: "Analytics"
 
   - path: "/stats"
     type: "stats"
     content:
-      title: "We Deliver Results"
+      title: "Join the Revolution"
       layout: "grid"
       background: "gradient"
       stats:
-        - label: "Projects Delivered"
-          value: "200+"
-          icon: "check-circle"
-
-        - label: "Happy Clients"
-          value: "150+"
+        - label: "Beta Users"
+          value: "25K+"
           icon: "users"
 
-        - label: "Awards Won"
-          value: "25+"
-          icon: "award"
+        - label: "Tasks Completed"
+          value: "10M+"
+          icon: "check"
 
-        - label: "Team Members"
-          value: "40+"
-          icon: "heart"
+        - label: "Time Saved"
+          value: "500K hrs"
+          icon: "clock"
 
-  - path: "/team"
+        - label: "Countries"
+          value: "80+"
+          icon: "globe"
+
+  - path: "/pricing"
+    type: "pricing"
+    content:
+      title: "Early Access Pricing"
+      subtitle: "Limited-time founder pricing - lock in now"
+      plans:
+        - name: "Free"
+          price: "$0"
+          period: "/month"
+          description: "Perfect for trying out NexaAI"
+          features:
+            - "Up to 3 users"
+            - "100 AI credits/month"
+            - "Basic integrations"
+            - "Community support"
+            - "Mobile apps"
+          cta:
+            text: "Start Free"
+            href: "/signup"
+
+        - name: "Pro"
+          price: "$29"
+          period: "/month"
+          description: "For serious teams (50% founder discount)"
+          highlighted: true
+          features:
+            - "Up to 20 users"
+            - "Unlimited AI credits"
+            - "All integrations"
+            - "Priority support"
+            - "Advanced analytics"
+            - "Custom workflows"
+            - "API access"
+          cta:
+            text: "Start 30-Day Trial"
+            href: "/trial"
+
+        - name: "Enterprise"
+          price: "$99"
+          period: "/month"
+          description: "For large organizations"
+          features:
+            - "Unlimited users"
+            - "Unlimited everything"
+            - "Dedicated support"
+            - "Custom AI training"
+            - "SSO & advanced security"
+            - "On-premise deployment"
+            - "SLA guarantee"
+            - "Dedicated account manager"
+          cta:
+            text: "Book a Demo"
+            href: "/demo"
+
+  - path: "/timeline"
+    type: "timeline"
+    content:
+      title: "Our Journey"
+      subtitle: "From idea to reality"
+      items:
+        - date: "2025-01"
+          title: "Seed Funding"
+          description: "Raised $5M seed round led by top VC firms to scale our platform and grow the team"
+          image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&w=400"
+
+        - date: "2024-10"
+          title: "Public Beta Launch"
+          description: "Opened beta to 25,000 early adopters. Received overwhelming positive feedback and feature requests"
+          image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&w=400"
+
+        - date: "2024-06"
+          title: "Private Alpha"
+          description: "Launched private alpha with 100 hand-picked teams to validate our AI models and user experience"
+          image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&w=400"
+
+        - date: "2024-01"
+          title: "Company Founded"
+          description: "Started NexaAI with a vision to make AI-powered collaboration accessible to every team"
+          image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&w=400"
+
+  - path: "/company"
     type: "team"
     content:
-      title: "Meet Our Team"
-      subtitle: "Talented people behind great work"
-      columns: 4
+      title: "Meet the Founders"
+      subtitle: "Experienced leaders building the future"
+      columns: 3
       members:
-        - name: "Sarah Thompson"
-          role: "Founder & Creative Director"
-          avatar: "https://i.pravatar.cc/150?img=1"
-          bio: "15+ years leading creative teams at top agencies"
+        - name: "Dr. Maya Patel"
+          role: "Co-Founder & CEO"
+          avatar: "https://i.pravatar.cc/150?img=16"
+          bio: "Former VP at Google, PhD in AI from Stanford"
           social:
             - platform: "linkedin"
-              url: "https://linkedin.com/in/sarahthompson"
+              url: "https://linkedin.com/in/mayapatel"
             - platform: "twitter"
-              url: "https://twitter.com/sarahthompson"
+              url: "https://twitter.com/mayapatel"
 
-        - name: "Marcus Chen"
-          role: "Tech Lead"
+        - name: "Alex Zhang"
+          role: "Co-Founder & CTO"
           avatar: "https://i.pravatar.cc/150?img=13"
-          bio: "Full-stack wizard with a passion for clean code"
+          bio: "Ex-Tesla engineer, built ML systems at scale"
           social:
             - platform: "github"
-              url: "https://github.com/marcuschen"
+              url: "https://github.com/alexzhang"
             - platform: "linkedin"
-              url: "https://linkedin.com/in/marcuschen"
+              url: "https://linkedin.com/in/alexzhang"
 
-        - name: "Emily Rodriguez"
-          role: "UX/UI Designer"
-          avatar: "https://i.pravatar.cc/150?img=5"
-          bio: "Creating beautiful and intuitive user experiences"
-          social:
-            - platform: "dribbble"
-              url: "https://dribbble.com/emilyrodriguez"
-            - platform: "linkedin"
-              url: "https://linkedin.com/in/emilyrodriguez"
-
-        - name: "James Wilson"
-          role: "Strategy Director"
-          avatar: "https://i.pravatar.cc/150?img=14"
-          bio: "Helping brands find their voice and grow"
+        - name: "Jordan Lee"
+          role: "Co-Founder & CPO"
+          avatar: "https://i.pravatar.cc/150?img=11"
+          bio: "Led product at Slack, design-driven innovator"
           social:
             - platform: "linkedin"
-              url: "https://linkedin.com/in/jameswilson"
+              url: "https://linkedin.com/in/jordanlee"
             - platform: "twitter"
-              url: "https://twitter.com/jameswilson"
+              url: "https://twitter.com/jordanlee"
 
-  - path: "/testimonials"
-    type: "testimonials"
-    content:
-      title: "Client Success Stories"
-      subtitle: "What our clients say about working with us"
-      testimonials:
-        - name: "Jennifer Adams"
-          role: "CEO at TechStart Inc"
-          avatar: "https://i.pravatar.cc/150?img=10"
-          content: "Pixel Perfect transformed our brand and online presence. Their team is professional, creative, and truly understands business goals. Highly recommended!"
-          rating: 5
-
-        - name: "Robert Martinez"
-          role: "Marketing Director at RetailCo"
-          avatar: "https://i.pravatar.cc/150?img=12"
-          content: "The e-commerce platform they built exceeded our expectations. Sales increased by 150% in the first quarter. Outstanding work!"
-          rating: 5
-
-        - name: "Lisa Chang"
-          role: "Founder at HealthTech Solutions"
-          avatar: "https://i.pravatar.cc/150?img=9"
-          content: "From concept to launch, they guided us every step of the way. The app they developed is beautiful, fast, and our users love it."
-          rating: 5
-
-  - path: "/contact"
+  - path: "/cta"
     type: "cta"
     content:
-      title: "Ready to Start Your Project?"
-      subtitle: "Let's discuss how we can help your business grow"
+      title: "Be Part of the Future"
+      subtitle: "Join 25,000+ teams already using NexaAI"
       backgroundType: "gradient"
       ctas:
-        - text: "Get in Touch"
-          href: "/contact"
+        - text: "Get Early Access"
+          href: "/signup"
           variant: "primary"
-        - text: "View Our Work"
-          href: "#work"
+        - text: "Watch Demo Video"
+          href: "/demo"
           variant: "secondary"
