@@ -1,0 +1,350 @@
+# University Admission - Student Recruitment Website
+# Perfect for universities, colleges, and educational institutions
+
+site:
+  title: "Universitas Nusantara"
+  description: "Penerimaan Mahasiswa Baru 2025/2026 - Wujudkan Impian Pendidikan Tinggi Anda"
+  favicon: "/favicon.ico"
+
+theme:
+  primary: "#1e40af"
+  secondary: "#3b82f6"
+  background: "#ffffff"
+  text: "#1e293b"
+  mode: "light"
+
+navigation:
+  - label: "Beranda"
+    path: "/"
+  - label: "Program Studi"
+    path: "#programs"
+  - label: "Pendaftaran"
+    path: "#registration"
+  - label: "Beasiswa"
+    path: "#scholarship"
+  - label: "Fasilitas"
+    path: "#facilities"
+  - label: "Kontak"
+    path: "#contact"
+
+pages:
+  - path: "/"
+    type: "hero"
+    content:
+      title: "Bergabunglah Bersama Kami"
+      subtitle: "Penerimaan Mahasiswa Baru 2025/2026"
+      description: "Raih masa depan cemerlang bersama Universitas Nusantara. Pendaftaran dibuka untuk berbagai program studi unggulan dengan fasilitas modern dan dosen berkualitas."
+      backgroundImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3"
+      cta:
+        text: "Daftar Sekarang"
+        href: "#registration"
+        variant: "primary"
+
+  - path: "/info"
+    type: "stats"
+    content:
+      title: "Mengapa Memilih Kami?"
+      layout: "grid"
+      background: "solid"
+      stats:
+        - label: "Akreditasi"
+          value: "A"
+          icon: "award"
+
+        - label: "Program Studi"
+          value: "25+"
+          icon: "book-open"
+
+        - label: "Mahasiswa Aktif"
+          value: "15.000+"
+          icon: "users"
+
+        - label: "Alumni Sukses"
+          value: "50.000+"
+          icon: "trending-up"
+
+  - path: "/programs"
+    type: "features"
+    content:
+      title: "Program Studi Unggulan"
+      subtitle: "Pilih program studi sesuai minat dan passion Anda"
+      features:
+        - title: "Teknik Informatika"
+          description: "Program studi yang fokus pada pengembangan software, AI, dan teknologi digital terkini dengan kurikulum berbasis industri"
+          icon: "code"
+          image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&w=800"
+
+        - title: "Manajemen Bisnis"
+          description: "Belajar strategi bisnis, entrepreneurship, dan manajemen modern untuk menjadi pemimpin bisnis masa depan"
+          icon: "briefcase"
+          image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&w=800"
+
+        - title: "Kedokteran"
+          description: "Program studi kedokteran dengan fasilitas laboratorium lengkap dan kerja sama dengan rumah sakit terkemuka"
+          icon: "heart"
+          image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&w=800"
+
+        - title: "Desain Komunikasi Visual"
+          description: "Kembangkan kreativitas dalam desain grafis, multimedia, dan komunikasi visual dengan tools profesional"
+          icon: "palette"
+          image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&w=800"
+
+        - title: "Akuntansi"
+          description: "Program studi akuntansi yang mempersiapkan akuntan profesional dengan sertifikasi internasional"
+          icon: "calculator"
+          image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&w=800"
+
+        - title: "Psikologi"
+          description: "Pelajari ilmu perilaku manusia dan kesehatan mental dengan pendekatan praktis dan riset terkini"
+          icon: "brain"
+          image: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?ixlib=rb-4.0.3&w=800"
+
+  - path: "/registration"
+    type: "timeline"
+    content:
+      title: "Alur Pendaftaran"
+      subtitle: "Ikuti langkah-langkah mudah untuk mendaftar"
+      events:
+        - date: "Langkah 1"
+          title: "Registrasi Online"
+          description: "Buat akun dan isi formulir pendaftaran online melalui portal PMB kami"
+
+        - date: "Langkah 2"
+          title: "Upload Dokumen"
+          description: "Unggah dokumen persyaratan seperti ijazah, transkrip nilai, dan foto"
+
+        - date: "Langkah 3"
+          title: "Pembayaran"
+          description: "Lakukan pembayaran biaya pendaftaran melalui bank atau payment gateway"
+
+        - date: "Langkah 4"
+          title: "Ujian Masuk"
+          description: "Ikuti ujian seleksi sesuai jadwal (online/offline)"
+
+        - date: "Langkah 5"
+          title: "Pengumuman"
+          description: "Cek hasil seleksi melalui portal PMB"
+
+        - date: "Langkah 6"
+          title: "Daftar Ulang"
+          description: "Lakukan registrasi ulang dan pembayaran biaya pendidikan"
+
+  - path: "/jalur"
+    type: "grid"
+    content:
+      title: "Jalur Penerimaan"
+      subtitle: "Pilih jalur penerimaan yang sesuai dengan kondisi Anda"
+      columns: 3
+      items:
+        - title: "Jalur SNBP"
+          description: "Seleksi Nasional Berdasarkan Prestasi untuk siswa berprestasi"
+          icon: "trophy"
+          link: "#snbp"
+
+        - title: "Jalur SNBT"
+          description: "Seleksi Nasional Berdasarkan Tes untuk semua calon mahasiswa"
+          icon: "edit"
+          link: "#snbt"
+
+        - title: "Jalur Mandiri"
+          description: "Seleksi mandiri universitas dengan kuota terbatas"
+          icon: "user-check"
+          link: "#mandiri"
+
+        - title: "Jalur Prestasi"
+          description: "Untuk siswa dengan prestasi akademik atau non-akademik"
+          icon: "star"
+          link: "#prestasi"
+
+        - title: "Jalur Beasiswa"
+          description: "Program beasiswa penuh untuk siswa berprestasi kurang mampu"
+          icon: "gift"
+          link: "#beasiswa"
+
+        - title: "Jalur Internasional"
+          description: "Program khusus untuk mahasiswa internasional"
+          icon: "globe"
+          link: "#international"
+
+  - path: "/scholarship"
+    type: "cards"
+    content:
+      title: "Program Beasiswa"
+      subtitle: "Raih kesempatan beasiswa untuk meringankan biaya pendidikan"
+      columns: 3
+      cards:
+        - title: "Beasiswa Prestasi Akademik"
+          description: "Beasiswa penuh untuk siswa dengan nilai akademik tertinggi"
+          badge: "100% Biaya"
+          icon: "book"
+
+        - title: "Beasiswa KIP Kuliah"
+          description: "Program bantuan pemerintah untuk mahasiswa kurang mampu"
+          badge: "Pemerintah"
+          icon: "heart"
+
+        - title: "Beasiswa Olahraga"
+          description: "Untuk atlet berprestasi tingkat nasional dan internasional"
+          badge: "50-100%"
+          icon: "activity"
+
+        - title: "Beasiswa Seni & Budaya"
+          description: "Khusus untuk talenta di bidang seni dan budaya"
+          badge: "50-75%"
+          icon: "music"
+
+        - title: "Beasiswa Tahfidz"
+          description: "Untuk penghafal Al-Quran minimal 15 juz"
+          badge: "75-100%"
+          icon: "book-open"
+
+        - title: "Beasiswa Kemitraan"
+          description: "Kerja sama dengan perusahaan dan lembaga mitra"
+          badge: "Varies"
+          icon: "briefcase"
+
+  - path: "/facilities"
+    type: "grid"
+    content:
+      title: "Fasilitas Kampus"
+      subtitle: "Nikmati fasilitas modern untuk menunjang kegiatan belajar"
+      columns: 4
+      items:
+        - title: "Perpustakaan Digital"
+          description: "Koleksi buku dan jurnal lengkap dengan akses e-library"
+          icon: "book"
+
+        - title: "Laboratorium"
+          description: "Lab komputer, sains, dan praktikum dengan peralatan modern"
+          icon: "cpu"
+
+        - title: "Asrama Mahasiswa"
+          description: "Asrama nyaman dengan fasilitas lengkap dan aman"
+          icon: "home"
+
+        - title: "Gedung Olahraga"
+          description: "GOR dengan lapangan basket, futsal, dan fitness center"
+          icon: "activity"
+
+        - title: "Auditorium"
+          description: "Ruang pertemuan besar untuk seminar dan acara kampus"
+          icon: "users"
+
+        - title: "Kantin & Kafe"
+          description: "Berbagai pilihan makanan dengan harga terjangkau"
+          icon: "coffee"
+
+        - title: "Klinik Kesehatan"
+          description: "Layanan kesehatan 24/7 untuk mahasiswa"
+          icon: "heart"
+
+        - title: "WiFi Kampus"
+          description: "Internet cepat di seluruh area kampus"
+          icon: "wifi"
+
+  - path: "/testimonials"
+    type: "testimonials"
+    content:
+      title: "Testimoni Mahasiswa"
+      subtitle: "Dengar langsung dari mahasiswa kami"
+      testimonials:
+        - name: "Andi Setiawan"
+          role: "Mahasiswa Teknik Informatika Angkatan 2023"
+          avatar: "https://i.pravatar.cc/150?img=12"
+          content: "Kampus ini memberikan pembelajaran yang sangat praktis. Dosennya kompeten dan fasilitasnya lengkap. Saya sudah mendapat internship di perusahaan teknologi ternama!"
+          rating: 5
+
+        - name: "Siti Nurhaliza"
+          role: "Mahasiswa Manajemen Bisnis Angkatan 2022"
+          avatar: "https://i.pravatar.cc/150?img=5"
+          content: "Beasiswa yang saya terima sangat membantu. Program magang dan networking dengan alumni juga luar biasa. Highly recommended!"
+          rating: 5
+
+        - name: "Budi Santoso"
+          role: "Mahasiswa Kedokteran Angkatan 2021"
+          avatar: "https://i.pravatar.cc/150?img=13"
+          content: "Fasilitas laboratorium dan rumah sakit pendidikan sangat mendukung pembelajaran klinis. Pengalaman belajar di sini sangat berharga."
+          rating: 5
+
+  - path: "/timeline"
+    type: "timeline"
+    content:
+      title: "Jadwal Penting PMB 2025/2026"
+      subtitle: "Catat tanggal-tanggal penting berikut"
+      events:
+        - date: "1 Januari - 28 Februari 2025"
+          title: "Pendaftaran Gelombang 1"
+          description: "Periode pendaftaran awal dengan benefit potongan biaya pendaftaran"
+
+        - date: "15 Maret 2025"
+          title: "Ujian Gelombang 1"
+          description: "Pelaksanaan ujian seleksi gelombang pertama"
+
+        - date: "25 Maret 2025"
+          title: "Pengumuman Gelombang 1"
+          description: "Hasil seleksi diumumkan melalui portal PMB"
+
+        - date: "1 April - 31 Mei 2025"
+          title: "Pendaftaran Gelombang 2"
+          description: "Periode pendaftaran gelombang kedua"
+
+        - date: "15 Juni 2025"
+          title: "Ujian Gelombang 2"
+          description: "Pelaksanaan ujian seleksi gelombang kedua"
+
+        - date: "25 Juni 2025"
+          title: "Pengumuman Gelombang 2"
+          description: "Pengumuman hasil seleksi gelombang kedua"
+
+        - date: "1-15 Juli 2025"
+          title: "Registrasi Ulang"
+          description: "Daftar ulang bagi mahasiswa yang diterima"
+
+        - date: "1 Agustus 2025"
+          title: "Orientasi Mahasiswa Baru"
+          description: "Kegiatan pengenalan kampus dan program studi"
+
+  - path: "/contact"
+    type: "cta"
+    content:
+      title: "Siap Memulai Perjalanan Pendidikan Anda?"
+      subtitle: "Daftar sekarang dan raih masa depan cemerlang!"
+      backgroundType: "gradient"
+      ctas:
+        - text: "Daftar Sekarang"
+          href: "https://pmb.universitasnusantara.ac.id"
+          variant: "primary"
+        - text: "Download Brosur"
+          href: "/download/brosur-pmb-2025.pdf"
+          variant: "secondary"
+
+  - path: "/info-contact"
+    type: "grid"
+    content:
+      title: "Hubungi Kami"
+      subtitle: "Tim kami siap membantu pertanyaan Anda"
+      columns: 3
+      items:
+        - title: "Telepon"
+          description: "(021) 1234-5678"
+          icon: "phone"
+
+        - title: "WhatsApp"
+          description: "+62 812-3456-7890"
+          icon: "message-circle"
+
+        - title: "Email"
+          description: "pmb@universitasnusantara.ac.id"
+          icon: "mail"
+
+        - title: "Instagram"
+          description: "@universitasnusantara"
+          icon: "instagram"
+
+        - title: "Alamat"
+          description: "Jl. Pendidikan No. 123, Jakarta Selatan 12345"
+          icon: "map-pin"
+
+        - title: "Jam Operasional"
+          description: "Senin-Jumat: 08.00-16.00 WIB"
+          icon: "clock"
